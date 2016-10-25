@@ -13,7 +13,7 @@ function respond() {
   //gifbot will now scan the first two characters of every message for the trigger that you establish.
   // if you want to use a trigger longer than 2 characters you will need to change the above substring command
   
-  if (trigger == '/g' && request.name != 'gifbot') {
+  if (trigger == '/g' || trigger == '/G' && request.name != 'gifbot') {
     searchTerm = request.text.substr(3);
     this.res.writeHead(200);
     requestLink(searchTerm);
