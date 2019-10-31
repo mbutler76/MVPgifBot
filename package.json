@@ -9,7 +9,7 @@
   "dependencies": {
     "director": "",
     "natural": "~0.1.21",
-    "request": "~2.27.0"
+    "request": "~2.88.0"
   },
   "engines": {
     "node": "0.10.x"
